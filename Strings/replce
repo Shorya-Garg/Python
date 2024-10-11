@@ -1,0 +1,7 @@
+letter = '''Dear <|Name|>,
+You are selected!
+<|Date|>'''
+# fill name and daate in given template.
+
+print(letter.replace('<|Name|>' , "Shorya").replace('<|Date|>','5,October'))
+
